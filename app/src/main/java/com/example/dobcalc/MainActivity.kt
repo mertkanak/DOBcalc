@@ -53,6 +53,7 @@ class MainActivity : AppCompatActivity() {
                 month,
                 day
             )
+
         dpd.datePicker.maxDate = System.currentTimeMillis() - 86400000
         dpd.show()
     }
